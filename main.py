@@ -1,9 +1,9 @@
 ##################################################
 '''
-Q1: 
+Q1:  
 '''
 
-x = None    # TODO: Replace `None` with your answer
+x = 10
 
 print('Q1:')
 print(f'x = {x}')
@@ -13,9 +13,9 @@ print('#' * 30)
 Q2:
 '''
 
-a = None    # TODO: Replace `None` with your answer
-b = None    # TODO: Replace `None` with your answer
-c = None    # TODO: Replace `None` with your answer
+a = 6
+b = 9
+c = 16
 
 print('Q2:')
 print(f'a = {a}')
@@ -27,8 +27,8 @@ print('#' * 30)
 Q3:
 '''
 
-first = None    # TODO: Replace `None` with your answer
-second = None   # TODO: Replace `None` with your answer
+first = 19
+second = 8
 
 print('Q3:')
 print(f'first = {first}')
@@ -39,20 +39,66 @@ print('#' * 30)
 Q4:
 '''
 
-# TODO: Write your code here
+first = 8
+second = 19
 
+first += second
+second = first - second
+first -= second
+
+print('Q4:')
+print(f'first = {first}')
+print(f'second = {second}')
 ##################################################
 '''
 Q5:
 '''
 
-# TODO: Write your code here
+work_hours = 4 + 5 + 8 + 4
+hourly_salary = 8.75
+tax = 0.20
+total_pay = work_hours * hourly_salary
+taxes_owed = total_pay * tax
 
+print('Q5:')
+# Calculate pay at work based on hours worked each day
+print("My total hours worked:")
+print(work_hours)
+
+print("My hourly salary:")
+print(f'${hourly_salary}')
+
+print("My total pay:")
+print(total_pay)
+
+print("My taxes owed:")  # 20% tax
+print(taxes_owed)
+
+print('#' * 30)
 ##################################################
 '''
 Q6:
 '''
 
-# TODO: Write your code here
+print('Q6:')
+# This program computes the total amount owed for a meal,
+# assuming 8% tax and a 15% tip.
+Subtotal = 38 + 40 + 30
+Tax = Subtotal * 0.08
+Tip = Subtotal * 0.15
+Total = Subtotal + Tax + Tip
 
+print("Subtotal:")
+print(38 + 40 + 30)
+
+print("Tax:")
+print(Tax)
+
+print("Tip:")
+print(Tip)
+
+print("Total:")
+print(Total)
+
+print('#' * 30)
 ##################################################
